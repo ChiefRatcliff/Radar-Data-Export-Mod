@@ -1,0 +1,21 @@
+# ── Proprietary game assemblies — never commit ──
+# The build references these from your local game install, not the repo.
+.decomp/
+**/Assembly-CSharp.dll
+**/Mirage.dll
+**/UnityEngine*.dll
+**/BepInEx.dll
+**/0Harmony.dll
+
+# ── .NET build output ──
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# ── Editor / OS ──
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
